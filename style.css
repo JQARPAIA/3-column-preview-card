@@ -9,7 +9,7 @@
 body {
     background-color: hsl(0, 0%, 95%);
     padding-top: 20px;
-    font-family: 'Lexend Deca', 'Big Shoulders Display', sans-serif,cursive;
+    font-family: 'Lexend Deca', sans-serif,cursive;
 }
 .header{
     display: flex;
@@ -66,7 +66,7 @@ body {
 }
 .grid-item h2 {
     font-size: 35px;
-
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 .grid-item:hover {
@@ -85,11 +85,9 @@ body {
     background: hsla(0, 0%, 100%, 0.75);
     border: 2px solid #fff;
     border-radius: 43px;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    padding: 10px 30px;
     text-decoration: none;
-    justify-self: flex-end;
-    align-self: flex-start;
     outline: none;
 }
 .grid-item button:hover {
